@@ -5,6 +5,8 @@
  */
 package jnp.com.controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * 내용 입력
@@ -14,6 +16,18 @@ package jnp.com.controller;
  * @since 
  * @created 2017. 10. 7.
  */
+
+@Controller("page")
 public class PageController {
 
+	
+	@RequestMapping("/main.do")
+	public String mainPage() {
+		
+		String resUri = "/main";
+		return resUri;
+		
+		
+	}
+	
 }
