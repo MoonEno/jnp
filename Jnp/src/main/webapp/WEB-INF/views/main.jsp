@@ -4,16 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript">
-
-alert("test1234");
-
-</script>
-
-<title>Jnp Project</title>
+<jsp:include page="common/header.jsp"/>
 </head>
 <body>
-
-<jsp:forward page="./mainPage.do" />
+<h2>메인페이지 입니다.</h2>
 </body>
 </html>
