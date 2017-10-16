@@ -37,12 +37,11 @@
     <div id="wrap">
         <footer id="footer">
 	        <ul>
-	            <li><address>서울특별시 성동구 성수2가 37-1</address></li>
+	            <li class="mt5"><address>서울특별시 성동구 성수2가 37-1</address></li>
 	            <li class="block"></li>
 	            <li class="odd">대표이사 사장 : 문석호</li>
 	            <li>사업자등록번호 : 104-81-37225</li>
 	            <li class="block"></li>
-	            <li>판매허가번호 : 중구-02923호</li>
 	        </ul>
 	        <div class="copyright">&copy; (주)Jnp Co. LTD. ALL RIGHTS RESERVED.</div>
 	    </footer>

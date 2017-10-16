@@ -7,7 +7,8 @@
 <jsp:include page="../common/header.jsp"/>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fruid">
+	<jsp:include page="../common/navigation.jsp"/>
 		<div class="img" style="background-image: url(img/house.jpg)">
 			<div id="introduce">
 				<p class="greeting">안녕하십니까?</p>
@@ -35,6 +36,7 @@
 		<p class="sign">
 			(주)일진그라텍<br> <span>대표이사 이 용 호 </span>
 		</p>
+		<jsp:include page="../common/footer.jsp"/>
 	</div>
 </body>
 </html>

@@ -7,7 +7,8 @@
 <jsp:include page="../common/header.jsp"/>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fruid">
+	<jsp:include page="../common/navigation.jsp"/>
 		<p class="ci">저희 일진그라텍의 CI를 소개합니다.</p>
 		<div class="row">
 			<div class="col-md-4">
@@ -34,6 +35,7 @@
 		<a class="btn file-down"> 
 		<i class="fa fa-download"></i> AI 파일다운로드
 		</a>
+		<jsp:include page="../common/footer.jsp"/>
 	</div>
 </body>
 </html>

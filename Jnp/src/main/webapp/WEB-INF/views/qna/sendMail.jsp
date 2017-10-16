@@ -8,6 +8,7 @@
 </head>
 <body>
 	<div class="container">
+	<jsp:include page="../common/navigation.jsp"/>
 		<form id="customer">
 			<div class="form-name">
 				<label for="label">이름:</label><br> <input type="text"
