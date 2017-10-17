@@ -45,7 +45,6 @@ $('#btnclick').on('click',function(){
 		<form id="customer">
 				<label for="label">이름:</label><br>
 				 <input type="text" class="text-controll" id="name" placeholder="Name">
-			</div>
 			<div class="form-email">
 				<label for="label">Email 주소:</label><br>
 				 <input type="text" class="text-controll" id="email" placeholder="Email Address">

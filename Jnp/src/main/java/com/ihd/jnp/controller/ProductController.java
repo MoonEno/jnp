@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value="/product")
 public class ProductController {
 
-	private static final Logger logger = LoggerFactory.getLogger(PageController.class);
+	private static final Logger logger = LoggerFactory.getLogger(ProductController.class);
 	
 	@RequestMapping(value="/productLine")
     public String productLine() {

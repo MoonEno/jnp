@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value="/intro")
 public class IntroController {
 
-	private static final Logger logger = LoggerFactory.getLogger(PageController.class);
+	private static final Logger logger = LoggerFactory.getLogger(IntroController.class);
 	
 	@RequestMapping(value="/greeting")
     public String introGreeting() {
