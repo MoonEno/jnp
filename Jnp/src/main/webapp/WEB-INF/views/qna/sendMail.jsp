@@ -8,7 +8,7 @@
 <script type="text/javascript" src="webapp/js/jquery-3.2.1.min.js"></script>
 
 <script>
-/* var name = $('#name').val();
+ var name = $('#name').val();
 var email = $('#email').val();
 var title = $('#title').val();
 var message = $('#message').val();
@@ -29,7 +29,7 @@ $('#click').on('click',function(){
 	  }else{
 		  alert("전송완료");
        	   };
-}); */ 
+});
 $('#btnclick').on('click',function(){
 	  alert("dddd");
 });
