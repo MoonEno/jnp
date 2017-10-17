@@ -1,30 +1,62 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<jsp:include page="../common/header.jsp"/>
+<jsp:include page="../common/header.jsp" />
+<script type="text/javascript" src="webapp/js/jquery-3.2.1.min.js"></script>
+
+<script>
+ var name = $('#name').val();
+var email = $('#email').val();
+var title = $('#title').val();
+var message = $('#message').val();
+
+$('#click').on('click',function(){
+	  if(!name){
+		  alert("이름을 입력해주세요");
+		  $('#name').focus();
+	  }else if(!email){
+		  alert("이메일을 입력해주세요");
+          $('#email').focus();
+	  }else if(!title){
+		  alert("제목을 입력해주세요");
+          $('#title').focus();
+	  }else if(!message){
+		  alert("메세지를 입력해주세요");
+          $('#message').focus();
+	  }else{
+		  alert("전송완료");
+       	   };
+});
+$('#btnclick').on('click',function(){
+	  alert("dddd");
+});
+
+/* document.getElementById('click').addEventListener('click',function(){
+	alert("dddd");
+}); */
+</script>
 </head>
 <body>
 	<div class="container">
 	<jsp:include page="../common/navigation.jsp"/>
 		<form id="customer">
-			<div class="form-name">
-				<label for="label">이름:</label><br> <input type="text"
-					class="text-controll" placeholder="Name">
+				<label for="label">이름:</label><br>
+				 <input type="text" class="text-controll" id="name" placeholder="Name">
 			</div>
 			<div class="form-email">
-				<label for="label">Email 주소:</label><br> <input type="text"
-					class="text-controll" placeholder="Email Address">
+				<label for="label">Email 주소:</label><br>
+				 <input type="text" class="text-controll" id="email" placeholder="Email Address">
 			</div>
 			<div class="form-title">
-				<label for="label">제목:</label><br> <input type="text"
-					class="text-controll" placeholder="Subject">
+				<label for="label">제목:</label><br> 
+				<input type="text" class="text-controll" id="title" placeholder="Subject">
 			</div>
 			<div class="form-message">
 				<label for="label">내용:</label><br>
-				<textarea class="text-controll" placeholder="Message" rows="5"></textarea>
+				<textarea class="text-controll" id="message" placeholder="Message" rows="5"></textarea>
 			</div>
 		</form>
 		<div class="form-agree">
@@ -34,7 +66,7 @@
 				필요가 있는 경우를 제외하고는 지체없이 파기됩니다.)
 			</label>
 		</div>
-		<input type="submit" class="btn" value="Send Message">
+		<input type="submit" class="btn" id="btnclick" value="Send Message">
 	</div>
 </body>
 </html>
