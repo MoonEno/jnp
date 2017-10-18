@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value = "page")
+@RequestMapping(value = "/page")
 public class PageController {
 
     private static final Logger logger = LoggerFactory.getLogger(PageController.class);

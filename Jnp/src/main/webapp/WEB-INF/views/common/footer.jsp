@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
 
 <script type="text/javascript">
-	$(window).bind("load", function() { 
+/* 	$(window).bind("load", function() { 
 	    
 	    var footerHeight = 0,
 	        footerTop = 0,
@@ -31,7 +31,7 @@
 	            .scroll(positionFooter)
 	            .resize(positionFooter)
 	            
-	});
+	}); */
 </script>
 
     <div id="wrap">

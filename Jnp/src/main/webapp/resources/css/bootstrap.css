@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  text-align: center;
 }
 article,
 aside,
@@ -4864,7 +4865,7 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding: 48px 0;
+    padding: 20px 0;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {

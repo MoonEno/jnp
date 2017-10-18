@@ -7,7 +7,7 @@
                     <a id="menu-toggle" class="button dark" href="#"><i class="icon-reorder"></i></a>
                     <nav id="navigation">
                         <ul id="main-menu">
-                            <li class="current-menu-item"><a href="http://www.naver.com">Home</a></li>
+                            <li class="current-menu-item"><a href="/page/mainPage">Home</a></li>
                             <li class="parent">
                                 <a href="/intro/greeting">회사소개</a>
                                 <ul class="sub-menu">
@@ -28,14 +28,14 @@
                             </li>
                             
                             <li class="parent">
-                                <a href="/product/productLine">제품소개</a>
+                                <a href="/product/line/product">제품소개</a>
                                 <ul class="sub-menu">
-                                    <li><a href="/product/productLine">산업용</a></li>
-                                    <li><a href="/product/foodLine">식품용</a></li>
+                                    <li><a href="/product/line/product">산업용</a></li>
+                                    <li><a href="/product/line/food">식품용</a></li>
                                 </ul>
                             </li>
                             
-                            <li><a href="www.naver.com">라인소개</a></li>
+<!--                             <li><a href="www.naver.com">라인소개</a></li> -->
                             
                             <li><a href="/qna/sendEmail">문의사항</a></li>
                             <li><a href="/contact/contactUs">Contact</a></li>

@@ -11,13 +11,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value = "qna")
+@RequestMapping(value = "/qna")
 public class QnaController {
 
     private static final Logger logger = LoggerFactory.getLogger(QnaController.class);
 
-    @RequestMapping(value = "/qnaPage")
-    public String qnaPage() {
+    @RequestMapping(value = "/sendEmail")
+    public String sendEmail() {
 
         String resUrl = "qna/sendMail";
 

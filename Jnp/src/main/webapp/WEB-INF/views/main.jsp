@@ -11,7 +11,6 @@
 	<body>
 	    <div class="container-fluid">
 		<jsp:include page="common/navigation.jsp" />
-		
 		<div class="jumbotron ad">
 		    <h1 class="display-3"> Welcome Jnp Company</h1>
 		    <p class="lead"> The club isn't the best place to find a lover <br>
@@ -21,7 +20,6 @@
 		    Come on now, follow my lead</p>
 		</div>
 		<div class="contents">
-		
 		
 		</div>
 		

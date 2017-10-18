@@ -5,15 +5,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../common/header.jsp" />
-<script type="text/javascript" src="webapp/js/jquery-3.2.1.min.js"></script>
 
-<script>
- var name = $('#name').val();
+<script type="text/javascript" >
+var name = $('#name').val();
 var email = $('#email').val();
 var title = $('#title').val();
 var message = $('#message').val();
 
-$('#click').on('click',function(){
+
+/* $('#click').on('click',function(){
 	  if(!name){
 		  alert("이름을 입력해주세요");
 		  $('#name').focus();
@@ -29,25 +29,20 @@ $('#click').on('click',function(){
 	  }else{
 		  alert("전송완료");
        	   };
-});
-$('#btnclick').on('click',function(){
-	  alert("dddd");
-});
-
-/* document.getElementById('click').addEventListener('click',function(){
-	alert("dddd");
 }); */
 </script>
 </head>
 <body>
-	<div class="container">
+	<div class="container-fluid">
 	<jsp:include page="../common/navigation.jsp"/>
 		<form id="customer">
+			<div class="form-name">
 				<label for="label">이름:</label><br>
-				 <input type="text" class="text-controll" id="name" placeholder="Name">
+				<input type="text" class="text-controll" id="name" placeholder="Name">
+			</div>
 			<div class="form-email">
 				<label for="label">Email 주소:</label><br>
-				 <input type="text" class="text-controll" id="email" placeholder="Email Address">
+				<input type="text" class="text-controll" id="email" placeholder="Email Address">
 			</div>
 			<div class="form-title">
 				<label for="label">제목:</label><br> 
@@ -55,7 +50,7 @@ $('#btnclick').on('click',function(){
 			</div>
 			<div class="form-message">
 				<label for="label">내용:</label><br>
-				<textarea class="text-controll" id="message" placeholder="Message" rows="5"></textarea>
+				<textarea class="text-controll" id="message" placeholder="Message" rows="5" style="resize:none"></textarea>
 			</div>
 		</form>
 		<div class="form-agree">
@@ -65,7 +60,8 @@ $('#btnclick').on('click',function(){
 				필요가 있는 경우를 제외하고는 지체없이 파기됩니다.)
 			</label>
 		</div>
-		<input type="submit" class="btn" id="btnclick" value="Send Message">
+		<input type="button" class="btn" id="btnclick" value="Send Message">
+		<jsp:include page="../common/footer.jsp"/>
 	</div>
 </body>
 </html>
