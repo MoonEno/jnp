@@ -1,0 +1,48 @@
+[
+  { 
+   "name" : "BTOB" ,
+   "song" : "그리워하다" ,
+   "imgUrl" : "kpop001"
+  } ,
+  {
+    "name" : "SUNMI" ,
+    "song" : "가시나" ,
+    "imgUrl" : "kpop002"
+  },
+  {
+    "name" : "IU" ,
+    "song" : "가을 아침" ,
+    "imgUrl" : "kpop003"
+  } ,
+  {
+    "name" : "BANG-TAN" ,
+    "song" : "DNA" ,
+    "imgUrl" : "kpop004"
+  } ,
+  {
+    "name" : "HEIZE" ,
+    "song" : "비가오는 밤이면" ,
+    "imgUrl" : "kpop005"
+  } ,
+  {
+    "name" : "MELOMANS" ,
+    "song" : "선물" ,
+    "imgUrl" : "kpop006"
+  } ,
+  {
+    "name" : "WOOWJ" ,
+    "song" : "시차" ,
+    "imgUrl" : "kpop007"
+  } ,
+  {
+    "name" : "볼빨간 사춘기" ,
+    "song" : "썸 탈거야" ,
+    "imgUrl" : "kpop008"
+  } ,
+  {
+    "name" : "윤종신" ,
+    "song" : "좋니" ,
+    "imgUrl" : "kpop009"
+}
+
+]

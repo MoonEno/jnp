@@ -1,0 +1,40 @@
+[{
+    "name" : "Jessie Ware" ,
+    "song" : "Your Domino" ,
+    "imgUrl" : "pop001"
+  } ,
+ {
+    "name" : "Cults" ,
+    "song" : "Offering" ,
+    "imgUrl" : "pop002"
+  },
+ {
+    "name" : "The Motans" ,
+    "song" : "Nota De Plata" ,
+    "imgUrl" : "pop003"
+  } ,
+  {
+    "name" : "Martin Byungman" ,
+    "song" : "Five In the Morning" ,
+    "imgUrl" : "pop004"
+  } ,
+  {
+    "name" : "EXON Banks" ,
+    "song" : "Liquid Love" ,
+    "imgUrl" : "pop005"
+  } ,
+  {
+    "name" : "Carly Rae Jepsen" ,
+    "song" : "Call Me Maybe" ,
+    "imgUrl" : "pop006"
+  } ,
+ {
+    "name" : "Rihanna" ,
+    "song" : "Take A Bow" ,
+    "imgUrl" : "pop007"
+  } ,
+  {
+    "name" : "Adele" ,
+    "song" : "Make You Feel My Love" ,
+    "imgUrl" : "kpop008"
+  }]
