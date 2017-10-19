@@ -5,7 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <jsp:include page="../common/header.jsp" />
-<script type="text/javascript"></script>
 
 <script>
     $(document).ready(function() {
