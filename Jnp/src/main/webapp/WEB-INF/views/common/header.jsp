@@ -13,15 +13,15 @@
 <meta http-equiv="expires" content="-1" />	
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<script src="/resources/js/jquery-3.2.1.min.js"></script>
-		<script src="/resources/js/bootstrap.min.js"></script>
-		<script src="/resources/js/nav-function.js"></script>
-		<script src="/resources/js/jquery.matchHeight-min.js"></script>
-		<link rel="stylesheet" type="text/css" href="/resources/css/common.css">
-		<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" type="text/css" href="/resources/css/nav-awesome.css">
-		<link rel="stylesheet" type="text/css" href="/resources/css/nav-menu.css">
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/nav-function.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.matchHeight-min.js"></script>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/common.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/nav-awesome.css">
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/nav-menu.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
     <title>Jnp Project</title>
