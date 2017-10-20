@@ -11,19 +11,26 @@
 	<body>
 	    <div class="container-fluid">
 		<jsp:include page="common/navigation.jsp" />
-		<div class="jumbotron ad">
-		    <h1 class="display-3"> Welcome Jnp Company</h1>
-		    <p class="lead"> The club isn't the best place to find a lover <br>
-		    So the bar is where I go <strong>Me and My Friends</strong> at the table doing shots</p>
-		    <hr/>
-		    <p> Girl, you know I want your love Your love was handmade for somebody like me <br>
-		    Come on now, follow my lead</p>
-		</div>
-		<div class="contents">
-		
-		</div>
-		
+		<div class="main">
+			<div class="jumbotron jumbotron-custom row">
+			    <div class="col-md-2"></div>
+			    <div class="welcome col-md-4">
+				    <h2 class="display-3"> Welcome Jnp Company</h2>
+				    <br>
+	                <p class="lead"> The club isn't the best place to find a lover <br>
+	                So the bar is where I go <strong>Me and My Friends</strong> at the table doing shots</p>
+			    </div>
+			    <div class="col-md-4">
+			    <img alt="" src="/resources/img/logo.png">
+			    </div>
+			    <div class="col-md-2"></div>
+			</div>
+			
+			<div class="contents">
+			<div></div>
+			</div>
+        </div>		
 		<jsp:include page="common/footer.jsp" />
-		</div>
+	   </div>
 	</body>
 </html>

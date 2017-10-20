@@ -33,7 +33,7 @@
 	            
 	}); */
 </script>
-
+    <hr/>
     <div id="wrap">
         <footer id="footer">
 	        <ul>
@@ -45,4 +45,5 @@
 	        </ul>
 	        <div class="copyright">&copy; (주)Jnp Co. LTD. ALL RIGHTS RESERVED.</div>
 	    </footer>
+	    <div></div>
 	</div>

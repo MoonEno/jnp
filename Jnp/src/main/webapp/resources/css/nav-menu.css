@@ -4,20 +4,10 @@
 	src: url(/resources/fonts/MALGUNBD.TTF)
 }
 
-body {
-	background-color: #eee;
-	color: #666;
-	font-family: GodoMaum;
-	font-size: 12px;
-	margin:0px;
-	padding:0px;
-}
-
 a {
 	color: #23dbdb;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #000;
 }
@@ -50,7 +40,7 @@ ol, ul {
 
 /* HEADER */
 #wrap > header {
-	background-color: #fff;
+	background-color: #2f2626;
 	padding-bottom: 20px;
 }
 .logo {
@@ -98,7 +88,7 @@ ol, ul {
 }
 
 #main-menu > li > a {
-	color: #000;
+	color: white;
 	font-size: 15px;
 	line-height: 20px;
 	padding: 30px 0;

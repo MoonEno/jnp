@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+
         <div id="wrap">
             <header>
                 <div class="inner relative">
-                    <a class="logo" href="http://www.naver.com"><img src="/resources/img/oh_intro_ol.png" alt="Jnp Company"></a>
-                    <a id="menu-toggle" class="button dark" href="#"><i class="icon-reorder"></i></a>
+                <a class="logo " href="http://www.naver.com"><img src="/resources/img/oh_intro_ol.png" alt="Jnp Company"></a>
                     <nav id="navigation">
                         <ul id="main-menu">
                             <li class="current-menu-item"><a href="/page/mainPage">Home</a></li>
@@ -15,15 +15,6 @@
                                     <li><a href="/intro/history">연혁</a></li>
                                     <li><a href="/intro/organization">조직현황</a></li>
                                     <li><a href="/intro/ci">CI</a></li>
-<!--                                    <li>
-                                        <a class="parent" href="#"><i class="icon-file-alt"></i> Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Full Width</a></li>
-                                            <li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Left Sidebar</a></li>
-                                            <li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Right Sidebar</a></li>
-                                            <li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Double Sidebar</a></li>
-                                        </ul>
-                                    </li> -->
                                 </ul>
                             </li>
                             
@@ -36,12 +27,15 @@
                             </li>
                             
 <!--                             <li><a href="www.naver.com">라인소개</a></li> -->
-                            
-                            <li><a href="/qna/sendEmail">문의사항</a></li>
+                            <li><a href="/qna/sendEmail">생산설비</a></li>
+                            <li><a href="/qna/sendEmail">주요사업</a></li>
+                            <li><a href="/qna/sendEmail">문의하기</a></li>
                             <li><a href="/contact/contactUs">Contact</a></li>
                         </ul>
                     </nav>
-                    <div class="clear"></div>
+                    <div class="clear">
+                    </div>
                 </div>
+
             </header>
         </div>

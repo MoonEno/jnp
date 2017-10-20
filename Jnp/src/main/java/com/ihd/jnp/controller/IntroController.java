@@ -23,6 +23,26 @@ public class IntroController {
         return resUrl;
     }
 	
+   @RequestMapping(value="/history")
+    public String introHistory() {
+        
+        String resUrl = "introduce/history";
+        
+         logger.info(" welcome history");
+        
+        return resUrl;
+    }
+   
+    @RequestMapping(value="/organization")
+    public String introorganization() {
+        
+        String resUrl = "introduce/organization";
+        
+         logger.info(" welcome organization");
+        
+        return resUrl;
+    }
+
 	@RequestMapping(value="/ci")
 	public String introCi() {
 		
