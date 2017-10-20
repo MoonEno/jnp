@@ -65,7 +65,7 @@
 	                        listHtml += '<div class="caption">';
 	                        listHtml += '<h3>'+ entry["song"] +'</h3>';
 	                        listHtml += '<img class="imgSet" src="/resources/img/'+ imgUrl + index +'.PNG"/></div>';
-	                        listHtml += '<div class="bgSky mt10 mh75" style="cursor: pointer;" onclick="test('+index+')">자세히보기</div>';
+	                        listHtml += '<div class="bgSky mt10 mh75 txtMd" style="cursor: pointer;" onclick="test('+index+')">자세히보기</div>';
 	                        listHtml += '<input type="hidden" id="name'+index+'" value="'+entry["name"]+'"></input>';
 	                        listHtml += '<input type="hidden" id="song'+index+'" value="'+entry["song"]+'"></input>';
 	                        listHtml += '</div></div>';
