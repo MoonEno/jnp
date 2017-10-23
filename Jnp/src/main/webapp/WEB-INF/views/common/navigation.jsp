@@ -4,7 +4,7 @@
         <div id="wrap">
             <header>
                 <div class="inner relative">
-                <a class="logo " href="http://www.naver.com"><img src="/resources/img/oh_intro_ol.png" alt="Jnp Company"></a>
+                <a class="logo " href="http://www.naver.com"><img src="/resources/img/jjcnpBig.png" alt="Jnp Company"></a>
                     <nav id="navigation">
                         <ul id="main-menu">
                             <li class="current-menu-item"><a href="/page/mainPage">Home</a></li>

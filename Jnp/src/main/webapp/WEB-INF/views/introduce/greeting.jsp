@@ -57,33 +57,67 @@ h3 {
     </ol>
     
     <div class="container">
-        <div class="col-sm-8 text-left article-img">
-            <h3>안녕하십니까?</h3>
-            <p class="article">
-                모든 산업이 치열한 글로벌 경쟁이되고 있는 시점에 저희 <b>(주)JJ C&P는</b><br> 오직 최고의 품질과
-                품격 높은 제품을 생산하겠다는 일념하에 땀 흘리며 연구하고 있습니다.<br> 1996년 창사이래 그 동안 많은
-                협력업체의 변함없는 신뢰와 고객분들의 성원에 힘입어<br> 최신형 Dry Lamination Machine과 봉투
-                가공기,레이져 Scoring 설비등의 도입과 더불어<br> 국내뿐만 아니라 북중미와 동남아등에 다양한 제품을
-                수출하며 포장 전문 기업으로<br> 자리매김 하고 있습니다.
-            </p>
-            <p class="article">
-                아울러 저희 <b>(주)JJ C&P</b> 전 임직원은 현재에 만족하지 않고 고객의 NEEDS를 최우선으로 생각하며<br>
-                최적화된 품질의 고기능성 제품과 정확한 납품으로 고객 만족을 위해 최선을 다하고 있습니다.
-            </p>
-            <p class="article">
-                또한, 언제나 고객 만족과 가치 창조를 목표로 저희 <b>(주)JJ C&P는</b> 지속적인 신제품 연구 및<br>
-                꾸준한 제품 개발에 매진하며 항상 책임을 다하는 자세로 포장산업을 선도하는 기업이 되도록<br> 항상 노력을
-                다하겠습니다.
-            </p>
-            <p class="article">
-                변함없는 성원과 격려를 부탁드리며, 항상 여러분 가정의 행복을 기원합니다.<br> 감사합니다.
-            </p>
+        <div class="col-md-12 mt20">
+	        <div class="col-md-7 text-left article-img">
+	            <h3>안녕하십니까?</h3>
+	            <p class="article fSize15">
+			    JJ C&amp;P의 모태는 1995년 B2B 전문 업체로 창립한 크로바 상사입니다.<br>
+			    2015년 법인으로 전환 승계하며 JJ C&amp;로 상호를 변경했습니다.<br>
+			         현재 JJ C&amp;P는 다양한 제품 구성능력과 신속하고 정확한 서비스를 제공하여 거래업체에 <br>
+			        더욱 향상된 부가가치를 제공하는 B2B 전문 업체로 성장해 가고 있습니다. 
+			   </p>
+			   <p class="article fSize15">
+			        항상 <strong class="impact fSize19">"처음과 끝은 같다."</strong>는 마음을 가지고 처음부터 끝까지 한발 앞서 준비하고 <br>
+			        남보다 먼저 실천하는 회사로서 거래업체와 <strong class="impact fSize19">함께 성장하는 파트너가 </strong> 되겠습니다.<br>
+			        감사합니다.
+			   </p>
+	        </div>
+	        <div class="col-md-5">
+	            <table class="table table-striped">
+	             <colgroup>
+	             <col width="35%">
+	             <col width="65%">
+	            </colgroup>
+	            <tr>
+	            <td>기업명(한글)</td>
+	            <td>(주)제이제이씨엔피</td>
+	            </tr>
+	            <tr>
+                <td>기업명(영문)</td>
+                <td>JJ C&amp;P</td>
+                </tr>
+                <tr>
+                <td>사업자등록번호</td>
+                <td>720-81-00103</td>
+                </tr>
+                <tr>
+                <td>대표자명</td>
+                <td>박종성</td>
+                </tr>
+                <tr>
+                <td>주소</td>
+                <td> 서울특별시 성동구 성수이로 66 서울 숲 <br> 드림타워 1110호 (우편번호: 133827) </td>
+                </tr>
+                <tr>
+                <td>주요상품(상품서비스)</td>
+                <td> 그라비아 제조, 인쇄 플라스틱 용기</td>
+                </tr>
+                <tr>
+                <td>전화번호</td>
+                <td>02-497-0340</td>
+                </tr>
+                <tr>
+                <td>팩스번호</td>
+                <td>02-497-0341</td>
+                </tr>
+	            </table>
+	        </div>
         </div>
-        
-            <div class="col-sm-4 text-right">
-            <h5 class="ju">(주)JJ C&P</h5><br>
-            <h3 class="sign">대표이사 문석호</h3>
-            </div>
+        <div class="col-sm-12 text-right">
+            <hr/>
+            <h5 class="ju">(주)JJ C&amp;P</h5><br>
+            <h3 class="sign"><strong>대표이사 박종성</strong></h3>
+        </div>
         
     </div>
     <jsp:include page="../common/footer.jsp" />

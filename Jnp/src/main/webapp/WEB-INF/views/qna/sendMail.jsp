@@ -23,7 +23,7 @@
             name.focus();
             return false;
         }
-        ;
+        
         //이름 유효성 검사 (한글과 영문 허용,공백체크)
         var reg_name = /^[가-힣a-zA-Z]+$/;
         if (!reg_name.test(name)) {
