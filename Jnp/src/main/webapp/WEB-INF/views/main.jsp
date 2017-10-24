@@ -21,7 +21,7 @@
 	                So the bar is where I go <strong>Me and My Friends</strong> at the table doing shots</p>
 			    </div>
 			    <div class="col-md-4">
-			    <img alt="" src="/resources/img/jjcnpBig.png">
+			    <img alt="" src="/resources/img/jjcnpLogo.png">
 			    </div>
 			    <div class="col-md-2"></div>
 			</div>

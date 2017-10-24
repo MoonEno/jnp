@@ -18,5 +18,14 @@ public class PageController {
 
         return resUrl;
     }
+    
+    
+    @RequestMapping(value = "/location")
+    public String companyLocation() {
+        
+        String resUrl = "location/location";
+        
+        return resUrl;
+    }
 
 }

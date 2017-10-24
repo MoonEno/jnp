@@ -102,6 +102,14 @@
 			</div>
 			 <div class="col-md-2"></div>
 		</div>
+		<ol class="breadcrumb">
+            <li class="ml20"><a class="ml10" href="/page/mainPage"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="/product/product">생산 설비</a></li>
+        </ol>
+		  <ul class="nav justify-content-center">
+		    <li class="nav-item"><a>123</a></li>
+		    <li class="nav-item"><a>abc</a></li>
+		  </ul>
 		<div class="contents ac mt20 centered">
 			<div class="row list">
 			</div>
