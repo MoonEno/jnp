@@ -27,5 +27,13 @@ public class PageController {
         
         return resUrl;
     }
+    
+    @RequestMapping(value = "/salesChart")
+    public String salesChart() {
+        
+        String resUrl = "chart/salesChart";
+        
+        return resUrl;
+    }
 
 }

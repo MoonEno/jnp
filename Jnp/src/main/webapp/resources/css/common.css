@@ -123,6 +123,7 @@
 /* text */
 .txt {font-size:14px}
 .txt-center {font-size: 35px; text-align:center; vertical-align: middle; line-height: 200px; color: white; }
+.txtCenter {text-align:center; vertical-align: middle; line-height: 200px; }
 .txtMd {text-align:center; vertical-align: middle; line-height: 40px; color: white; }
 .txt span, .txt em, .txt strong, .txt b {font-size:14px;}
 input[type=text], input[type=tel] {appearance: none !important;width: 100%;padding: 4px 5px 4px 0px !important;color: #333;border-radius: 5px !important;border: 1px solid #c7c7c7;box-sizing:border-box;}
@@ -142,3 +143,8 @@ input[type=text], input[type=tel] {appearance: none !important;width: 100%;paddi
 .historyTable {border-top: 2px solid #41577d; border-bottom: 2px solid #ccc; max-width: 720px;}
 .year {min-height: 50px; vertical-align: top; text-align: center; font-size: 25px; font: bold;}
 .tableData {color: gray; vertical-align: middle;}
+
+div .tab {overflow: hidden;  max-width: 450px; background-color: #f9f8f7; color: #000040;}
+div .tab button {background-color: inherit; border: none; outline: none; cursor: pointer; padding: 15px; width: 49.5%; border-bottom: 2px;}
+div .tab button:HOVER{border-bottom: 2px solid #ccc; }
+div .tab .active {border-bottom: 2px solid #ccc; background-color: #f0eeec;}

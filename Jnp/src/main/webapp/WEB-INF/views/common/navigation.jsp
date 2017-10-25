@@ -19,15 +19,15 @@
                             </li>
                             
                             <li class="parent">
-                                <a href="/product/line/product">생산설비</a>
+                                <a href="/product/line/plastic">생산설비</a>
                                 <ul class="sub-menu">
-                                    <li><a href="/product/line/product">비닐 기획팩</a></li>
-                                    <li><a href="/product/line/food">종이 기획팩</a></li>
+                                    <li><a href="/product/line/plastic">비닐 기획팩</a></li>
+                                    <li><a href="/product/line/paper">종이 기획팩</a></li>
                                 </ul>
                             </li>
                             
-                            <li><a href="/qna/sendEmail">주요사업</a></li>
-                            <li><a href="/qna/sendEmail">매출현황</a></li>
+                            <li><a href="/business/mainBiz">주요사업</a></li>
+                            <li><a href="/page/salesChart">매출현황</a></li>
                             <li><a href="/qna/sendEmail">문의하기</a></li>
                             <li><a href="/page/location">Contact</a></li>
                         </ul>

@@ -10,47 +10,72 @@
 		
 		$(function(){
             
-            var symbolHtml = '';
-            
-			/** 제품 & 식품에 따른 jumbotrom wording 변경 **/
-			if (line == "product") {
-				$('.display-3').text("Product Line");
-				$('.lead').html("a deliverable or set of deliverables that contribute to a business solution");
-				
-			    symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/global.png"/></div>';
-			    symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/leesin.png"/></div>';
-			    symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/watch.png"/></div>';
-			    symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/boxes.png"/></div>';
-			    
-			    $('.symbol').html(symbolHtml);
+			if (line == 'plastic') {
+				getHeader('plastic');
 			} else {
-				$('.display-3').text("Food Line");
-				$('.lead').html("It is usually of plant or animal origin, and contains essential nutrients");
-				
-                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/watch.png"/></div>';
-                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/foodline.png"/></div>';
-                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/add.png"/></div>';
-                
-                $('.symbol').html(symbolHtml);
+				getHeader('paper');
 			}
-			getList();
 			
 			$('.item').matchHeight();
+			
+			$('.tab .tablink').click(function() {
+		        $('.tab .tablink').removeClass('active');
+		        $(this).toggleClass('active'); 
+			});
+			
 		});
 		
-		function getList() {
+		function getHeader(value) {
+			 
+			$('.symbol').empty();
+			
+			 var symbolHtml = '';
+	            
+	            /** 제품 & 식품에 따른 jumbotrom wording 변경 **/
+	            if (value == "plastic") {
+	                $('.display-3').text("Product Line");
+	                $('.lead').html("a deliverable or set of deliverables that contribute to a business solution");
+	                
+	                symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/global.png"/></div>';
+	                symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/leesin.png"/></div>';
+	                symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/watch.png"/></div>';
+	                symbolHtml += '<div class="col-md-3"><img src="/resources/img/icon/boxes.png"/></div>';
+	                
+	                $('.symbol').html(symbolHtml);
+	            } else {
+	                $('.display-3').text("Food Line");
+	                $('.lead').html("It is usually of plant or animal origin, and contains essential nutrients");
+	                
+	                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/watch.png"/></div>';
+	                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/foodline.png"/></div>';
+	                symbolHtml += '<div class="col-md-4"><img src="/resources/img/icon/add.png"/></div>';
+	                
+	                $('.symbol').html(symbolHtml);
+	            }
+	            
+	            if (value == 'plastic') {
+	            	getList('plastic');
+	            } else {
+	            	getList('paper');
+	            }
+			
+		}
+		
+		function getList(value) {
 			
 			$('.list').empty();
 			
 			var url = "";
 			var imgUrl = "";
 			
-			if (line == "product") {
+			if (value == "plastic") {
 				url = "/resources/data/product.json";
 				imgUrl = "kpop00";
+				$('#btnPlastic').addClass('active');
 			} else {
 				url = "/resources/data/food.json"
 				imgUrl = "pop00";
+				$('#btnPaper').addClass('active');
 			}
 			
 			var listHtml = '';
@@ -80,9 +105,10 @@
 		}
 		function test(value) {
 			var thisName = $('#name'+value).val();
-			var thisSong = $('#song'+value).val();
-			$('.modal-header').after().html('<h4 class="modal-title">'+thisName + ' - ' +thisSong + '</h4> <button type="button" class="close" data-dismiss="modal">&times;</button>');
-			$('.modal-body').after().html('<p>'+thisName + '이(가) 부른  ' +thisSong + '입니다.</p>');
+			
+			
+			$('.modal-header').after().html('<h4 class="modal-title txtCenter fSize22">'+thisName + '</h4> <button type="button" class="close" data-dismiss="modal">&times;</button>');
+			$('.modal-body').after().html();
 			$("#myModal").modal();
 		}
 		
@@ -106,10 +132,11 @@
             <li class="ml20"><a class="ml10" href="/page/mainPage"><span class="glyphicon glyphicon-home"></span></a></li>
             <li><a href="/product/product">생산 설비</a></li>
         </ol>
-		  <ul class="nav justify-content-center">
-		    <li class="nav-item"><a>123</a></li>
-		    <li class="nav-item"><a>abc</a></li>
-		  </ul>
+        <div class="tab centered fSize16 fBold">
+          <button class="tablink" id="btnPlastic" onclick="getHeader('plastic')">비닐 기획팩</button>
+          <button class="tablink" id="btnPaper" onclick="getHeader('paper')">종이 기획팩</button>
+        </div>
+		  
 		<div class="contents ac mt20 centered">
 			<div class="row list">
 			</div>
