@@ -14,8 +14,6 @@ public class QnaServiceImpl implements QnaService {
         
         
          // 여기에 메일 보내는 서비스 로직 추가
-
-        
         
         return param;
     }

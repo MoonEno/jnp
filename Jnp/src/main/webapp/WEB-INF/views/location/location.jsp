@@ -65,7 +65,7 @@
 		</div>
 	   <script>
 		      var map;
-		      var center = {lat : 37.540916, lng: 127.055882};
+		      var center = {lat : 37.540633, lng: 127.055864};
 		      
 		      function initMap() {
 		          map = new google.maps.Map(document.getElementById('map'), {

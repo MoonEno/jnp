@@ -14,6 +14,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script src="${pageContext.request.contextPath}/resources/js/jquery-3.2.1.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-ui.min.js"></script>
 		<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 		<script src="${pageContext.request.contextPath}/resources/js/nav-function.js"></script>
 		<script src="${pageContext.request.contextPath}/resources/js/jquery.matchHeight-min.js"></script>
@@ -24,4 +25,4 @@
 		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/nav-menu.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
-    <title>Jnp Project</title>
+    <title> JJ C&amp;P </title>

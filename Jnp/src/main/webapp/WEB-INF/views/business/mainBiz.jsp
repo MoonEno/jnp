@@ -143,7 +143,7 @@
 		</div>
 		<ol class="breadcrumb">
             <li class="ml20"><a class="ml10" href="/page/mainPage"><span class="glyphicon glyphicon-home"></span></a></li>
-            <li><a href="/product/product">생산 설비</a></li>
+            <li><a href="/business/mainBiz">주요사업</a></li>
         </ol>
         <div class="tab centered fSize16 fBold">
           <button class="tablink" id="btnPlastic" onclick="getHeader('plastic')">비닐 기획팩</button>

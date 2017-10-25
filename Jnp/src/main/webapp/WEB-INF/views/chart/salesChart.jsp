@@ -14,7 +14,7 @@
 	
 	      function drawChart() {
 	        var data = google.visualization.arrayToDataTable([
-	          ['Year', '매출액'],
+	          ['Year', '매출액(십 만원)'],
 	          ['2011년',  3850],
 	          ['2012년',  5100],
 	          ['2013년',  5300],
