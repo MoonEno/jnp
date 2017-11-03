@@ -1,11 +1,10 @@
 package com.ihd.jnp.service;
 
-import javax.transaction.SystemException;
-
 
 import com.ihd.jnp.vo.MailVo;
+import com.sun.mail.util.MailConnectException;
 
 public interface QnaService {
     
-    public MailVo sendEmailContents(MailVo param) throws SystemException;
+    public MailVo sendEmailContents(MailVo param) throws MailConnectException;
 }

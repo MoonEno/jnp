@@ -5,7 +5,7 @@
  */
 package com.ihd.jnp.controller;
 
-import javax.transaction.SystemException;
+import javax.mail.MessagingException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,12 +36,17 @@ public class QnaController {
     
     
     @RequestMapping(value="/qnaContents" , method = RequestMethod.POST)
-    public String emailContents(MailVo mailVo) throws SystemException {
+    public String emailContents(MailVo mailVo) {
         
         String resUrl = "";
         
         // jsp에서 client가 보낸 값을 service로 이동시켜 로직 처리
-        qnaService.sendEmailContents(mailVo);
+        try {
+            qnaService.sendEmailContents(mailVo);
+        } catch (MessagingException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         
         
         return resUrl;
