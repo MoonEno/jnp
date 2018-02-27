@@ -40,7 +40,6 @@ ol, ul {
 
 /* HEADER */
 #wrap > header {
-	background-color: #2f2626;
 	padding-bottom: 20px;
 }
 .logo {
@@ -77,7 +76,6 @@ ol, ul {
 }
 
 #main-menu > li.parent {
-	background-image: url(/resources/img/plus-gray.png);
 	background-size: 7px 7px;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -88,8 +86,8 @@ ol, ul {
 }
 
 #main-menu > li > a {
-	color: white;
-	font-size: 15px;
+	color: #1b1616;
+	font-size: 20px;
 	line-height: 20px;
 	padding: 30px 0;
 	text-decoration:none;
@@ -126,7 +124,7 @@ ul.sub-menu > li > a {
 	background-color: #fff;
 	border: 1px solid #f0f1f1;
 	border-top: none;
-	color: #bbb;
+	color: black;
 	display: block;
 	font-size: 12px;
 	line-height: 15px;

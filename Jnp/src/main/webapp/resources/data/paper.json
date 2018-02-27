@@ -1,23 +1,70 @@
 [
-  { 
-   "nameKor" : "인쇄기" ,
-   "nameEng" : "print press" ,
-   "desc" : "특징 :  대국전 6도 인쇄 [6색 + 코팅]<br> 최대 /최소 종이 사이즈  : 720*1020mm/340*480mm <br> 최대 인쇄/종이두께 범위 : 710*1020mm/0.03~1.0mm"
-  } ,
   {
-    "nameKor" : "합지기" ,
-    "nameEng" : "" ,
-    "desc" : "특징 : 전자동 하드롱 전지 합지기<br> 합지 최대/최소 사이즈 : 1300*1180mm/500*350mm <br> 작업 속도 : 50*100  sheet/min <br>"
+    "nameKor" : "paper001" ,
+    "nameEng" : "paper001" 
   },
   {
-    "nameKor" : "접착기" ,
-    "nameEng" : "Adhesive Machine" ,
-    "desc" : "특징 : 복잡하고 다양한 형태 접착 [4면, 6면, 8면] <br> 운전속도 20~40 m/min"
+    "nameKor" : "paper002" ,
+    "nameEng" : "paper002" 
   },
   {
-    "nameKor" : "톰슨기" ,
-    "nameEng" : "" ,
-    "desc" : "최대 /최소 용지 규격 : 740*1060mm/340*460mm <br> 최대 타발속도 : 7200 iph"
+    "nameKor" : "paper003" ,
+    "nameEng" : "paper003" 
+  },  {
+    "nameKor" : "paper004" ,
+    "nameEng" : "paper004" 
+  },
+  {
+    "nameKor" : "paper005" ,
+    "nameEng" : "paper005" 
+  },
+  {
+    "nameKor" : "paper006" ,
+    "nameEng" : "paper006" 
+  },
+  {
+    "nameKor" : "paper007" ,
+    "nameEng" : "paper007" 
+  },
+  {
+    "nameKor" : "paper008" ,
+    "nameEng" : "paper008" 
+  },
+  {
+    "nameKor" : "paper009" ,
+    "nameEng" : "paper009" 
+  },
+  {
+    "nameKor" : "paper010" ,
+    "nameEng" : "paper010"
+  },
+  {
+    "nameKor" : "paper011" ,
+    "nameEng" : "paper011" 
+  },
+  {
+    "nameKor" : "paper012" ,
+    "nameEng" : "paper012" 
+  },
+  {
+    "nameKor" : "paper013" ,
+    "nameEng" : "paper013" 
+  },
+  {
+    "nameKor" : "paper014" ,
+    "nameEng" : "paper014" 
+  },
+  {
+    "nameKor" : "paper015" ,
+    "nameEng" : "paper015" 
+  },
+  {
+    "nameKor" : "paper016" ,
+    "nameEng" : "paper016" 
+  },
+  {
+    "nameKor" : "paper017" ,
+    "nameEng" : "paper017" 
   }
 
 ]

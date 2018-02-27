@@ -1,22 +1,74 @@
 [
-  { 
-   "nameKor" : "인쇄기" ,
-   "nameEng" : "print press" ,
-   "desc" : "전자동 최신형 기계를 사용하여 고품질의 1도 ~ 10도 고속 인쇄 가능. 광택과 무 광택을 잉크나 피 인쇄물의 선정에 따라 표현이 자유로우며, 연속 계조의 범위가 넓고 톤, 색채, 명암, 농도의 효과가 풍부함."
-  } ,
   {
-    "nameKor" : "사이드 실링기" ,
-    "nameEng" : "Side Sealing Machine" ,
-    "desc" : "제품 사양에 따라 T자, M자, HEAD BAG  등 다양하게 봉투를 만드는 공정 가능."
+    "nameKor" : "paper051" ,
+    "nameEng" : "paper051" 
   },
   {
-    "nameKor" : "압출기" ,
-    "nameEng" : "air Compress" ,
-    "desc" : "복합 다능 FILM 생산 기계"
+    "nameKor" : "paper052" ,
+    "nameEng" : "paper052" 
   },
   {
-    "nameKor" : "스탠드 지퍼팩 가공기" ,
-    "nameEng" : "Stand zipper pack" ,
-    "desc" : "삼방, 지퍼포장, STAND-UP 등 다양하게 봉투를 만드는 공정 가능."
+    "nameKor" : "paper053" ,
+    "nameEng" : "paper053" 
+  },  {
+    "nameKor" : "paper054" ,
+    "nameEng" : "paper054" 
+  },
+  {
+    "nameKor" : "paper055" ,
+    "nameEng" : "paper055" 
+  },
+  {
+    "nameKor" : "paper055" ,
+    "nameEng" : "paper055" 
+  },
+  {
+    "nameKor" : "paper056" ,
+    "nameEng" : "paper056" 
+  },
+  {
+    "nameKor" : "paper057" ,
+    "nameEng" : "paper057" 
+  },
+  {
+    "nameKor" : "paper058" ,
+    "nameEng" : "paper058" 
+  },
+  {
+    "nameKor" : "paper059" ,
+    "nameEng" : "paper059" 
+  },
+  {
+    "nameKor" : "paper060" ,
+    "nameEng" : "paper060"
+  },
+  {
+    "nameKor" : "paper061" ,
+    "nameEng" : "paper061" 
+  },
+  {
+    "nameKor" : "paper062" ,
+    "nameEng" : "paper062" 
+  },
+  {
+    "nameKor" : "paper063" ,
+    "nameEng" : "paper063" 
+  },
+  {
+    "nameKor" : "paper064" ,
+    "nameEng" : "paper064" 
+  },
+  {
+    "nameKor" : "paper065" ,
+    "nameEng" : "paper065" 
+  },
+  {
+    "nameKor" : "paper066" ,
+    "nameEng" : "paper066" 
+  },
+  {
+    "nameKor" : "paper067" ,
+    "nameEng" : "paper067" 
   }
+
 ]

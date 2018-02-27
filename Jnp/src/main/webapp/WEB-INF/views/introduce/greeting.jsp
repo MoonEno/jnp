@@ -47,7 +47,7 @@ h3 {
     <jsp:include page="../common/navigation.jsp" />
     <div class="container-fluid">
         <div class="jumbotron bg">
-            <div class="txt-center">인사말</div>
+            <div class="txt-center"><strong>인 사 말 </strong></div>
         </div>
     </div>
     <ol class="breadcrumb">
@@ -55,8 +55,6 @@ h3 {
       <li><a href="/intro/greeting">회사소개 </a></li>
       <li><a href="/intro/greeting">인사말</a></li>
     </ol>
-    
-    <div class="container">
         <div class="col-md-12 mt20">
 	        <div class="col-md-7 text-left article-img">
 	            <h3>안녕하십니까?</h3>
@@ -72,6 +70,7 @@ h3 {
 			        감사합니다.
 			   </p>
 	        </div>
+	        
 	        <div class="col-md-5">
 	            <table class="table table-striped">
 	             <colgroup>
@@ -112,15 +111,12 @@ h3 {
                 </tr>
 	            </table>
 	        </div>
-        </div>
+	        
         <div class="col-sm-12 text-right">
             <hr/>
             <h5 class="ju">(주)JJ C&amp;P</h5><br>
             <h3 class="sign"><strong>대표이사 박종성</strong></h3>
         </div>
-        
     </div>
-    <jsp:include page="../common/footer.jsp" />
-
 </body>
 </html>

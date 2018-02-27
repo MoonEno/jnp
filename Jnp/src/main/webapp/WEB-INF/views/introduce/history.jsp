@@ -18,7 +18,7 @@
 		      <li><a href="/intro/history">연혁</a></li>
 		    </ol>
 	        <div class="contents">
-		        <h2 class="ac mb20">미래로의 도약, 끊임없이 성장하는 &nbsp;<img alt="" src="/resources/img/logo.png">&nbsp;의 역사입니다.</h2>
+		        <h2 class="ac mb20">미래로의 도약, 끊임없이 성장하는  JJ C&amp;P의 역사입니다.</h2>
 		        <div class="col-md-3"></div>
 		        <div class="col-md-6">
 			        <table class="table table-striped historyTable mt20">
