@@ -20,7 +20,7 @@
                             <li class="parent">
                                 <a href="/product/line/plastic">제품소개</a>
                                 <ul class="sub-menu">
-                                    <li><a href="/product/line/plastic">비닐 기획팩</a></li>
+                                    <li><a href="/product/line/vinyl">비닐 기획팩</a></li>
                                     <li><a href="/product/line/paper">종이 기획팩</a></li>
                                 </ul>
                             </li>

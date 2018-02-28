@@ -18,7 +18,7 @@ public class ProductController {
 	@RequestMapping(value="/line/{group}")
     public ModelAndView productLine(@PathVariable("group") String group) {
 	    
-	    String resUrl = "product/line";
+	    String resUrl = "product/product";
 	    
 	    ModelAndView mav = new ModelAndView();
 	    

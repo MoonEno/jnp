@@ -14,7 +14,7 @@ public class BusinessController {
     @RequestMapping(value = "/mainBiz")
     public String mainBusiness() {
 
-        String resUrl = "/business/mainBiz";
+        String resUrl = "/product/line";
 
         return resUrl;
     }

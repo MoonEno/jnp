@@ -1,70 +1,38 @@
 [
   {
-    "nameKor" : "paper001" ,
-    "nameEng" : "paper001" 
+    "nameKor" : "남양 커피에몽" 
   },
   {
-    "nameKor" : "paper002" ,
-    "nameEng" : "paper002" 
+    "nameKor" : "남양 초코에몽" 
   },
   {
-    "nameKor" : "paper003" ,
-    "nameEng" : "paper003" 
+    "nameKor" : "불가리스 MILK100" 
   },  {
-    "nameKor" : "paper004" ,
-    "nameEng" : "paper004" 
+    "nameKor" : "1등급 우유 MY MILK " 
   },
   {
-    "nameKor" : "paper005" ,
-    "nameEng" : "paper005" 
+    "nameKor" : "남양 화이트 초코에몽" 
   },
   {
-    "nameKor" : "paper006" ,
-    "nameEng" : "paper006" 
+    "nameKor" : "프렌치카페 카와" 
   },
   {
-    "nameKor" : "paper007" ,
-    "nameEng" : "paper007" 
+    "nameKor" : "프리미엄 가공유" 
   },
   {
-    "nameKor" : "paper008" ,
-    "nameEng" : "paper008" 
+    "nameKor" : "불가리스 기본 팩" 
   },
   {
-    "nameKor" : "paper009" ,
-    "nameEng" : "paper009" 
+    "nameKor" : "불가리스 MILK100 팩" 
   },
   {
-    "nameKor" : "paper010" ,
-    "nameEng" : "paper010"
+    "nameKor" : "프랜치카페1 팩" 
   },
   {
-    "nameKor" : "paper011" ,
-    "nameEng" : "paper011" 
+    "nameKor" : "프렌치카페2팩" 
   },
-  {
-    "nameKor" : "paper012" ,
-    "nameEng" : "paper012" 
-  },
-  {
-    "nameKor" : "paper013" ,
-    "nameEng" : "paper013" 
-  },
-  {
-    "nameKor" : "paper014" ,
-    "nameEng" : "paper014" 
-  },
-  {
-    "nameKor" : "paper015" ,
-    "nameEng" : "paper015" 
-  },
-  {
-    "nameKor" : "paper016" ,
-    "nameEng" : "paper016" 
-  },
-  {
-    "nameKor" : "paper017" ,
-    "nameEng" : "paper017" 
+    {
+    "nameKor" : "불가리스 MILK100 팩" 
   }
 
 ]
