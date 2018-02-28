@@ -31,7 +31,7 @@
 		    <div class="col-md-8"><div class="mh500" id="map"></div></div>
 		    <div class="col-md-2"></div>
 		    </div>
-<!-- 		    <div class="row mt20">
+ 		    <div class="row mt20">
 			    <div class="col-md-2"></div>
 	            <div class="col-md-8">
 		            <div class="row">
@@ -43,16 +43,16 @@
 						             <col width="80%">
 					             </colgroup>
 					             <tr class="bg-info">
-			                         <td><img src="/resources/img/icon/locationX2.png"></td>
+			                         <td class="txtCenter"><img src="/resources/img/icon/locationX2.png"></td>
 			                         <td><p class="md"> 위치 : 서울특별시 성동구 성수이로66 서울숲 드림타워 1101호</p>
 		                         </tr>
 					             <tr class="bg-success">
-						             <td><img src="/resources/img/icon/busX2.png"></td>
-						             <td><p class="md"> 버스 : </p>
+						             <td class="txtCenter"><img src="/resources/img/icon/busX2.png"></td>
+						             <td><p class="md"> 버스 : 한라시그마밸리 (04-864) (04-854) / 동부결찰관기동대 (04-865) </p>
 					             </tr>
 					             <tr class="bg-success">
-						             <td><img src="/resources/img/icon/subwayX2.png"></td>
-						             <td><p class="md">지하철 : </p></td>
+						             <td class="txtCenter"><img src="/resources/img/icon/subwayX2.png"></td>
+						             <td><p class="md">지하철 : 2호선 성수역 </p></td>
 					             </tr>
 				            </table>
 			            </div>
@@ -60,7 +60,7 @@
 		            </div>
 	            </div>
                 <div class="col-md-2"></div>
-		    </div> -->
+		    </div>
 			<jsp:include page="../common/footer.jsp" />
 		</div>
 	   <script>

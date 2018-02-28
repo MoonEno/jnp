@@ -16,10 +16,11 @@
 				    <img alt="" src="/resources/img/main.jpg" class="mainImg" >
 				</div>
 				
-				<div class="container">
-				    <div>
-				        <div class="ac mtp4"><h1>PRODUCT</h1></div>
-				    </div>
+				<div>
+				    <div class="ac mtb4p"><p class="fSize50 fBold"> INTRODUCE </p></div>
+						<video class="wMax mlr10p" autoplay="autoplay" loop="loop" muted="muted" volumn="0">
+						    <source src="/resources/img/video.mp4">
+						</video>
 				</div>
 				
 			</div>

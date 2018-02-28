@@ -3,7 +3,7 @@
         <div id="navi">
             <header>
                 <div class="inner relative">
-                <a class="logo " href="/page/mainPage"><img src="/resources/img/logo.png" alt="Jnp Company"></a>
+                <a class="headerLogo " href="/page/mainPage"><img src="/resources/img/logo.png" alt="Jnp Company"></a>
                     <nav id="navigation">
                         <ul id="main-menu">
                             <li class="current-menu-item"></li>

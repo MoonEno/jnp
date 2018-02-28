@@ -53,8 +53,8 @@ ol, ul {
 }
 #navigation {
 	position: absolute;
-	right: 40px;
-	bottom: 0px;
+	right: -10%;
+	bottom: 20px;
 }
 
 #menu-toggle {
@@ -87,7 +87,7 @@ ol, ul {
 
 #main-menu > li > a {
 	color: #1b1616;
-	font-size: 20px;
+	font-size: 30px;
 	line-height: 20px;
 	padding: 30px 0;
 	text-decoration:none;

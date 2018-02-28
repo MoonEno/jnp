@@ -17,7 +17,7 @@
 		      <li><a href="/intro/greeting">회사소개 </a></li>
 		      <li><a href="/intro/history">연혁</a></li>
 		    </ol>
-	        <div class="contents">
+	        <div class="contents mtb5p">
 		        <h2 class="ac mb20">미래로의 도약, 끊임없이 성장하는  JJ C&amp;P의 역사입니다.</h2>
 		        <div class="col-md-3"></div>
 		        <div class="col-md-6">
