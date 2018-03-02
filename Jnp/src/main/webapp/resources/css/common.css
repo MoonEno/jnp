@@ -194,7 +194,7 @@ input[type=text], input[type=tel] {appearance: none !important;width: 100%;paddi
 .year {min-height: 50px; vertical-align: top; text-align: center; font-size: 25px; font: bold;}
 .tableData {color: gray; vertical-align: middle;}
 
-div .tab {overflow: hidden;  max-width: 450px; background-color: #f9f8f7; color: #000040;}
-div .tab button {background-color: inherit; border: none; outline: none; cursor: pointer; padding: 15px; width: 49.5%; border-bottom: 2px;}
+div .tab {overflow: hidden;  max-width: 1000px; background-color: #f9f8f7; color: #000040;}
+div .tab button {background-color: inherit; border: none; outline: none; cursor: pointer; padding: 15px; width: 32.5%; border-bottom: 2px;}
 div .tab button:HOVER{border-bottom: 2px solid #ccc; }
 div .tab .active {border-bottom: 2px solid #ccc; background-color: #f0eeec;}

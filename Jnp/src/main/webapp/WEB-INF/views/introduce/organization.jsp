@@ -18,7 +18,7 @@
 			    </ol>
 	        <div class="container">
 		        <div class="contents centered">
-	            <img class="organicImg" src="/resources/img/organism.png">
+	            <img class="organicImg" src="/resources/img/organism.PNG">
 		        </div>
 	        </div>
 		        <jsp:include page="../common/footer.jsp" />

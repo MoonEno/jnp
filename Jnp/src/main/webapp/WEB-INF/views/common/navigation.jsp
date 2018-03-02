@@ -18,15 +18,17 @@
                             </li>
                             
                             <li class="parent">
-                                <a href="/product/line/plastic">제품소개</a>
+                                <a href="/product/line/vinyl">제품소개</a>
                                 <ul class="sub-menu">
                                     <li><a href="/product/line/vinyl">비닐 기획팩</a></li>
                                     <li><a href="/product/line/paper">종이 기획팩</a></li>
+                                    <li><a href="/product/line/etc">기타</a></li>
                                 </ul>
                             </li>
                             
                             <li><a href="/business/mainBiz">생산설비</a></li>
                             <li><a href="/page/location">Contact</a></li>
+                            <li><a href="">공지사항</a></li>
                         </ul>
                     </nav>
                     <div class="clear">

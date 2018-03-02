@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:task="http://www.springframework.org/schema/task"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.2.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+        http://www.springframework.org/schema/task 
+        http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+
+    <context:component-scan base-package="shilla.portal.biz">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service" />
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository" />
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
+
+    <bean id="configuration" class="org.apache.commons.configuration.PropertiesConfiguration">
+        <constructor-arg type="java.io.File" value="classpath:portal.properties" />
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:portal.properties" />
+    </bean>
+    
+    <!-- DBCP dataSource -->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${portal.db.driver}" />
+        <property name="url" value="${portal.db.url}" />
+        <property name="username" value="${portal.db.username}" />
+        <property name="password" value="${portal.db.password}" />
+        <property name="maxActive" value="20" />
+        <property name="maxIdle" value="10" />
+        <property name="minIdle" value="10" />
+        <property name="maxWait" value="-1" />
+        <property name="initialSize" value="20" />
+        <property name="poolPreparedStatements" value="true" />
+        <property name="maxOpenPreparedStatements" value="100" />
+        <property name="testWhileIdle" value="true" />
+        <property name="timeBetweenEvictionRunsMillis" value="600000" />
+        <property name="validationQuery" value="select 1"/>
+    </bean>
+
+    <!-- DBCP session factory --> 
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:configuration.xml" />
+        <property name="mapperLocations" value="classpath:mybatis/*/*.xml" />
+    </bean>
+
+    <!-- DBCP session -->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory" />
+    </bean>
+
+    <!-- transaction --> 
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="create*" propagation="REQUIRED" rollback-for="Exception" />
+            <tx:method name="modify*" propagation="REQUIRED" rollback-for="Exception" />
+            <tx:method name="remove*" propagation="REQUIRED" rollback-for="Exception" />
+        </tx:attributes>
+    </tx:advice>
+
+<!--     <aop:config>
+        <aop:pointcut id="txPointcut" expression="execution(public * shilla.portal.biz..*Service.*(..))" />
+        <aop:advisor pointcut-ref="txPointcut" advice-ref="txAdvice" />
+    </aop:config> -->
+    
+<!--     <task:scheduler id="scheduler" pool-size="3" />
+    <task:scheduled-tasks scheduler="scheduler">
+        락커 확인
+        <task:scheduled ref="taskService" method="checkLocker" cron="${portal.task.checkLocker}" />
+    </task:scheduled-tasks> -->
+</beans>

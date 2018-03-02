@@ -12,10 +12,12 @@
 		    
 			if (line == "vinyl") {
 				getList('vinyl');
-			} else {
+			} else if (line=="paper") {
 				getList('paper');
+			} else {
+			    getList('etc');
 			}
-			
+ 			
 			$('.item').matchHeight();
 			
 			$('.tab .tablink').click(function() {
@@ -29,15 +31,20 @@
 			$('.list').empty();
 			
 			var url = "";
+			var gubn = ".JPG";
 			
 			if (value == "vinyl") {
 				url = "/resources/data/vinyl.json";
 				imgUrl = "vinyl";
 				$('#btnVinyl').addClass('active');
-			} else {
-				url = "/resources/data/paper.json"
+			} else if (value == "paper"){
+				url = "/resources/data/paper.json";
 				imgUrl = "paper";
 				$('#btnPaper').addClass('active');
+			} else {
+			    url = "/resources/data/etc.json";
+			    imgUrl = "etc";
+			    gubn = ".png";
 			}
 			
 		
@@ -59,8 +66,8 @@
 	                        listHtml += '<div class="mtb50">';
 	                        listHtml += '<div class="caption">';
 	                        listHtml += '<h3>'+ entry["nameKor"] +'</h3>';
-	                        listHtml += '<img class="imgSet" src="/resources/img/product/'+ imgUrl + idx +'.JPG"/></div>';
-	                        listHtml += '<div class="bgSky mt10 mh75 wMax250 mAuto pt20 txtMd" style="cursor: pointer;" onclick="popUp('+index+')"><p class="fSize15">상세보기</p></div>';
+	                        listHtml += '<img class="imgSet" src="/resources/img/product/'+ imgUrl + idx + gubn + '"/></div>';
+	                        listHtml += '<div class="bgSky mt10 mh75 wMax250 mAuto pt20 txtMd" style="cursor: pointer;" onclick="popUp(' + index + ',&#39;'+ value +'&#39;)"><p class="fSize15">상세보기</p></div>';
 	                        listHtml += '<input type="hidden" id="nameKor'+idx+'" value="'+entry["nameKor"]+'"></input>';
 	                        listHtml += '</div></div>';
 	                    });
@@ -73,21 +80,28 @@
 			
 		}
 		
-		function popUp(value) {
-		    if(value < 10) {
-		    	value = "00" + value;
+		function popUp(idx, value) {
+		    var gubn = '.JPG';
+		    
+		    if (value == "etc") {
+		        gubn = ".png";
 		    }
-		    else if (value < 99) {
-		    	value = "0" + value ;
+		    
+		    if(idx < 10) {
+		    	idx = "00" + idx;
 		    }
-			var nameKor = $('#nameKor'+value).val();
+		    else if (idx < 99) {
+		    	idx = "0" + idx ;
+		    }
+			var nameKor = $('#nameKor'+idx).val();
 
 			$('.modal-header').after().html('<h4 class="modal-title txtCenter fSize22">'+nameKor + '</h4> <button type="button" class="close" data-dismiss="modal">&times;</button>');
 			
 			var bodyHtml = '';
 			
+			
 			bodyHtml += '<div class="txtCenter">';
-			bodyHtml += '<img class="imgSet" src="/resources/img/product/'+ imgUrl + value +'.JPG" alt="비닐 기획팩"/></div>';
+			bodyHtml += '<img class="imgSet" src="/resources/img/product/'+ imgUrl + idx + gubn +'" alt="비닐 기획팩"/></div>';
 			bodyHtml += '<div class="bdr1 mt20">';
 			bodyHtml += '<div class="mb15"></div>'
 			bodyHtml += '<p class="fSize15"> 제품명(한글) :' + nameKor + '</p>';
@@ -111,6 +125,7 @@
         <div class="tab centered fSize16 fBold">
           <button class="tablink" id="btnVinyl" onclick="getList('vinyl')">비닐 기획팩</button>
           <button class="tablink" id="btnPaper" onclick="getList('paper')">종이 기획팩</button>
+          <button class="tablink" id="btnEtc" onclick="getList('etc')">기타</button>
         </div>
 		  
 		<div class="contents ac mt20 centered">

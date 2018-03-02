@@ -44,7 +44,7 @@
 					             </colgroup>
 					             <tr class="bg-info">
 			                         <td class="txtCenter"><img src="/resources/img/icon/locationX2.png"></td>
-			                         <td><p class="md"> 위치 : 서울특별시 성동구 성수이로66 서울숲 드림타워 1101호</p>
+			                         <td><p class="md"> 위치 : 서울특별시 성동구 성수이로66 서울숲 드림타워 1110호</p>
 		                         </tr>
 					             <tr class="bg-success">
 						             <td class="txtCenter"><img src="/resources/img/icon/busX2.png"></td>

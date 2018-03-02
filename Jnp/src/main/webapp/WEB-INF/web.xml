@@ -8,10 +8,10 @@
   
     <!-- spring 환경설정인 application context 등록 -->
 	<!-- The definition of the Root Spring Container shared by all Servlets and Filters -->
-	<context-param>
-		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/spring/root-context.xml</param-value>
-	</context-param>
+	 <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:context.xml</param-value>
+    </context-param>
 	
     <!-- context-param을 생성할 경우 listener class를 정의해야 함 -->
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
